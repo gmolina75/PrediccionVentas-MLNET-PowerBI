@@ -1,0 +1,36 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Datos masivos (opcional: si quieres versionar los CSV, comenta estas líneas)
+# Descomenta las siguientes líneas si NO quieres subir los CSV grandes a GitHub
+# data/*.csv
+# sqlite/*.db
+
+# Modelos entrenados
+*.zip
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+*.gdoc
